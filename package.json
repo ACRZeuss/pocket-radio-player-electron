@@ -1,13 +1,13 @@
 {
-  "name": "react-electron",
+  "name": "pocketradio",
   "version": "0.1.0",
-  "description": "Simple boilerplate for developing an Electron app with React",
-  "author": "willjw3",
+  "description": "Live Radio in Turkey",
+  "author": "Erhan Polat",
   "build": {
-    "appId": "react.electron",
-    "productName": "react-electron",
-    "mac":{
-      "icon": "build/logo512.png",
+    "appId": "com.ep.pocketradio",
+    "productName": "Pocket Radio Player",
+    "mac": {
+      "icon": "build/icon.png",
       "target": "tar.gz"
     },
     "linux": {
@@ -35,8 +35,10 @@
     "electron-is-dev": "^1.1.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
+    "react-h5-audio-player": "^3.8.4",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.2.0"
+    "react-scripts": "3.2.0",
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start-react": "react-scripts start",
@@ -45,7 +47,7 @@
     "eject-react": "react-scripts eject",
     "build-electron": "electron-builder",
     "build": "yarn build-react && yarn build-electron -wml",
-    "start": "concurrently \"cross-env BROWSER=none yarn start-react\" \"wait-on http://localhost:3000 && electron .\""
+    "start": "concurrently \"cross-env BROWSER=none yarn start-react\" \"wait-on https://pocketradio.tk && electron .\""
   },
   "eslintConfig": {
     "extends": "react-app"

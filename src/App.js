@@ -20,7 +20,7 @@ function App() {
         <div class="header-right">
           <a
             id="desktop-app"
-            href="./assets/pocket-radio-player-1.0.0 Setup.exe"
+            href="https://download1502.mediafire.com/vp5am4obhyhg/9iot2h3okoh21da/Pocket+Radio+Player+Setup.exe"
             download
           >
             Masaüstü Uygulamasını İndir

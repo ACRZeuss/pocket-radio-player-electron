@@ -2,7 +2,10 @@
   "name": "pocketradio",
   "version": "0.1.0",
   "description": "Live Radio in Turkey",
-  "author": "Erhan Polat",
+  "author": {
+    "name": "Erhan Polat",
+    "email": "erhan@erhanpolat.tk"
+  },
   "build": {
     "appId": "com.ep.pocketradio",
     "productName": "Pocket Radio Player",
@@ -14,13 +17,13 @@
       "category": "Utils",
       "icon": "build/icon.png",
       "packageCategory": "utils",
-      "maintainer": "your name <your email>",
+      "maintainer": "Erhan Polat erhan@erhanpolat.tk",
       "asar": true,
       "target": [
         "deb",
         "tar.xz"
       ],
-      "synopsis": "Basically same as description but shorter"
+      "synopsis": "Live Radio in Turkey"
     },
     "win": {
       "icon": "build/icon.png",

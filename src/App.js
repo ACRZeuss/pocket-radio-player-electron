@@ -17,7 +17,7 @@ function App() {
         <a href="#default" class="logo">
           Pocket Radio Player
         </a>
-        <div class="header-right">
+        {/* <div class="header-right">
           <a
             id="desktop-app"
             href="https://download1502.mediafire.com/vp5am4obhyhg/9iot2h3okoh21da/Pocket+Radio+Player+Setup.exe"
@@ -25,7 +25,7 @@ function App() {
           >
             Masaüstü Uygulamasını İndir
           </a>
-        </div>
+        </div> */}
       </div>
       <div className="App">
         {DATA.map((item) => {
